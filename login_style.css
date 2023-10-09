@@ -1,0 +1,133 @@
+/* Apply styles to the body */
+body {
+    font-family: Courier, monospace;
+    /* background-color:  #5ab08380; */
+    text-align: center;
+    padding: 20 px;
+    background-image: url('bg4.png');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/* .bg4.png{
+    display: flex;
+} */
+.login{
+    margin-top: 50px;
+    background: rgba( 255, 255, 255, 0.25 );
+   box-shadow: 0 8px 40px 0 rgba( 31, 38, 135, 0.37 );
+   backdrop-filter: blur( 4px );
+   -webkit-backdrop-filter: blur( 400px );
+   border-radius: 10px;
+   border: 1px solid rgba( 255, 255, 255, 0.18 );
+   width: 50%;
+    /* height:680px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+/* Style the heading */
+h1 {
+    font-weight: bold;
+    color: black;
+}
+
+/* Style labels */
+label {
+    font-family: Courier, monospace;
+    display: block;
+    font-weight: bold;
+    margin-top: 25 px;
+    color: #000000;
+}
+
+/* Style input fields */
+input[type="text"],
+input[type="password"] {
+    width:20%;
+    padding:2px;
+    margin-top: 1 px;
+    border: 1 px solid #ffffff;
+    border-radius: 2 px;
+    font-family: Courier, monospace;
+    font-size: 20px;
+    opacity: 0.6;
+}
+/* Style icons */
+i.bx {
+    font-size: 30 px;
+    margin-left: -30 px;
+    margin-right: 10 px;
+    vertical-align: middle;
+    color: #040101;
+    
+}
+.name1{
+    display: flex;
+    /* flex-direction: row; */
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.name{
+    width: 50%;
+    padding: 50px;
+}
+.pass{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.pass1{
+    width: 50%;
+    padding: 50px;
+}
+
+/* Style the checkbox and "Forgot password?" link */
+label input[type="checkbox"] {
+    margin-right: 7 px;
+   
+}
+
+/* a {
+    text-decoration: none;
+    color: #db3466;
+} */
+
+/* Style the login button */
+button {
+    background-color: #00070b;
+    color: rgb(242, 236, 236);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+   
+}
+
+button.btn:hover {
+    background-color: #fff;
+    color: black;
+    
+}
+
+/* Style the "Don't have an account?" link */
+a {
+    text-decoration: none;
+    color: #000c95;
+}
+.a1{
+    margin-top: 20px;
+}

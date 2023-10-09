@@ -1,0 +1,102 @@
+/* Apply styles to the body */
+body {
+    font-family: Courier, monospace;
+    background-color:  #5ab08380;
+    text-align: center;
+    padding: 20px;
+    background-image: url('bg4.png');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.register{
+    background: rgba( 255, 255, 255, 0.25 );
+   box-shadow: 0 8px 40px 0 rgba( 31, 38, 135, 0.37 );
+   backdrop-filter: blur( 4px );
+   -webkit-backdrop-filter: blur( 400px );
+   border-radius: 10px;
+   border: 1px solid rgba( 255, 255, 255, 0.18 );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 50%;
+    height:580px;
+}
+.bg4{
+    display: flex;
+}
+/* Style labels */
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    color: #000000;
+}
+
+/* Style input fields */
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="radio"] {
+    width: 55%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    opacity: 0.6;
+}
+
+/* Style radio buttons */
+input[type="radio"] {
+    margin-right: 50px;
+}
+
+/* Style the submit button */
+button {
+    background-color: #00070b;
+    color: rgb(242, 236, 236);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: #000c95;
+}
+.fullname{
+    width: 70;
+    display: flex;
+}
+.oneline{
+    width: 70%;
+    display: flex;
+    align-items: space-evenly;
+}
+.name{
+    width: 40%;
+}
+.one{
+    width: 50%;
+    
+}
+a{
+    text-decoration: none;
+    color: #000c95;
+}
